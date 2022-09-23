@@ -1,0 +1,101 @@
+@import "./reset.css";
+
+
+:root {
+    --disc-colour: black;
+    --disc-label: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.disc {
+    background-color: var(--disc-colour);
+    border: 5px solid var(--disc-colour);
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-disc {
+    height: 100%;
+    width: 100%;
+}
+
+.upper-disc {
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gap {
+    display: flex;
+    justify-content: flex-end;
+    align-items: top;
+    height: 100%;
+    width: 300px;
+}
+
+.metal {
+    height: 100%;
+    width: 200px;
+    margin-right: 5%;
+    background-color: silver;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hole {
+    width: 50px;
+    height: 80%;
+    background: var(--disc-colour);
+    margin-right: 15%;
+}
+
+.lower-disc {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.leftpad-container {
+    height: 220px;
+    width: 40px;
+    align-items: flex-start;
+}
+
+.label {
+    background: var(--disc-label);
+    height: 220px;
+    width: 304px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.label-top {
+    background: red;
+    height: 30px;
+    width: 300px;
+    margin-top: 2px;
+}
+
+.label-line {
+    border: 1px solid red;
+    height: 30px;
+    width: 300px;
+}
+
+.rightpad-container {
+    height: 220px;
+    width: 40px;
+    align-items: flex-end;
+}
