@@ -48,7 +48,7 @@
     height: 100%;
     width: 200px;
     margin-right: 5%;
-    background-image: linear-gradient(to right, silver, white, silver);
+    background-image: linear-gradient(to right, silver, grey, white, silver);
     display: flex;
     justify-content: flex-end;
     align-items: center;
