@@ -78,19 +78,29 @@
     width: 304px;
     display: flex;
     align-items: flex-end;
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
 
 .label-top {
-    background: red;
+    background: #B4041B;
+    height: 30px;
+    width: 100%;
+
+}
+
+.label-line {
+    border-bottom: 1.5px solid #B4041B;
     height: 30px;
     width: 100%;
 }
 
-.label-line {
-    border: 1px solid red;
-    height: 30px;
-    width: 100%;
+.label-index {
+    margin-top: 10px;
+}
+
+.label-index span {
+    color: #630814;
+    margin-left: 10px;
 }
 
 
