@@ -1,6 +1,5 @@
 @import "./reset.css";
 
-
 :root {
     --disc-colour: black;
     --disc-label: white;
@@ -15,6 +14,7 @@
 .disc {
     background-color: var(--disc-colour);
     border: 5px solid var(--disc-colour);
+    border-radius: 5%;
     height: 400px;
     width: 400px;
     display: flex;
@@ -47,7 +47,7 @@
     height: 100%;
     width: 200px;
     margin-right: 5%;
-    background-color: silver;
+    background-image: linear-gradient(to right, silver, white, silver);
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -84,14 +84,16 @@
 .label-top {
     background: red;
     height: 30px;
-    width: 300px;
+    width: 100%;
 }
 
 .label-line {
     border: 1px solid red;
     height: 30px;
-    width: 300px;
+    width: 100%;
 }
+
+
 
 .rightpad-container {
     height: 220px;
