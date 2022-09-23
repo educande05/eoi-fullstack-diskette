@@ -12,9 +12,10 @@
 }
 
 .disc {
+    clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 10%, 90% 0%);
     background-color: var(--disc-colour);
     border: 5px solid var(--disc-colour);
-    border-radius: 5%;
+    border-radius: 3%;
     height: 400px;
     width: 400px;
     display: flex;
@@ -99,7 +100,7 @@
 }
 
 .label-index span {
-    color: #630814;
+    color: #B4041B;
     margin-left: 10px;
 }
 
